@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Bilibili video background (swappable)",
+    "description": "Paints the Bilibili embed player as a full-frame DSH background; paste a link or BV id to swap the video, pick a part, set the start offset or mute it. Parsing and playability pre-check run on a Host route, so a bad target reports a message instead of a black frame.",
+    "detail": "docs/DETAIL.md"
+  }
+}

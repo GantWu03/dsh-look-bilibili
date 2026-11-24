@@ -1,0 +1,60 @@
+{
+  "name": "dsh-look-bilibili",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Bilibili video as a full-frame background for DeepSeek Harness: hover-expand floating controls, agent-drivable switching, Win32 input bridge for a cross-origin embed player.",
+  "license": "MIT",
+  "author": "GantWu03",
+  "homepage": "https://github.com/GantWu03/dsh-look-bilibili#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GantWu03/dsh-look-bilibili.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GantWu03/dsh-look-bilibili/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "bilibili",
+    "wallpaper",
+    "live-wallpaper",
+    "background-video"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./resolve": "./resolve.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "resolve.js",
+    "pointer.js",
+    "pointer.ps1",
+    "cordis.patch.yml",
+    "assets",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

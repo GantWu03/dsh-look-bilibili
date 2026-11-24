@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Bilibili video background">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2f4a"/>
+      <stop offset="1" stop-color="#0b1522"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="url(#g)"/>
+  <rect x="10" y="14" width="44" height="30" rx="5" fill="none" stroke="#5a9bd8" stroke-width="2"/>
+  <path d="M27 23 L40 29 L27 35 Z" fill="#eaf2ff"/>
+  <rect x="10" y="50" width="44" height="4" rx="2" fill="#2f5d8c"/>
+  <circle cx="50" cy="18" r="4" fill="#5ad0a4"/>
+</svg>

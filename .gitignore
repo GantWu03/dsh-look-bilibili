@@ -1,0 +1,16 @@
+# dependencies (this plugin has none, but keep it safe)
+node_modules/
+
+# diagnostics written by /bili-player/report
+reports/
+*.jsonl
+*.log
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor
+.vscode/
+.idea/
